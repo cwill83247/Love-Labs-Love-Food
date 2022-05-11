@@ -6,6 +6,26 @@ This is the Code Institute student template for Gitpod. We have preinstalled all
 
 You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
+##Love Labs Love Food
+Bootstrap 5 - used <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+Hero Image - thank you to Yogiraj Banerji for the image https://unsplash.com/photos/HyIRIzPKG9A?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+unsplash.com
+
+Background image - thank you to Lily Banse https://unsplash.com/photos/-YHSwy6uqvk?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+
+Fonts - https://fonts.google.com/
+Header Lobster Font -  https://fonts.googleapis.com/css2?family=Lobster&display=swap'
+
+Icons - https://fontawesome.com
+https://fontawesome.com/icons/face-grin-hearts?s=solid
+https://fontawesome.com/icons/paw?s=solid
+
+##Issues #####
+When using Fixed haader/navigation - text is lying underneath
+removed -- <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+replaced with -- <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+
 ## Gitpod Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:

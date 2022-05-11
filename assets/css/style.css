@@ -1,0 +1,50 @@
+/*Love Labs, Love Food - style.css    */
+/*Author: Chris Williams              */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+.navbar-brand h1 {
+font-family:'Lobster', cursive, Times, serif;
+}
+
+#hero-image-holder {
+    border-radius:5px;
+}
+
+#dog-friendly-venues {
+    width: 100%;
+    overflow: hidden;
+    background-image: url('../images/lily-banse--YHSwy6uqvk-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left:5%;
+    
+}
+/**#overlay {
+    background-color: rgba(26, 25, 25, 0.8);    
+    width:auto;
+    
+}**/
+#dog-friendly-venues div {     /***this needs work to make it responsive ***/
+    width: 30%;
+    height:100%;
+    margin-top:2rem; 
+    margin-right:2rem;
+    margin-bottom:1rem;
+    overflow: hidden;
+    float: left;
+    /*padding: 30px 0 0 10px;*/
+    padding:2%;
+    text-align: center;
+    border: 0.2rem solid rgba(248, 247, 247, 0.1);
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    /*box-sizing: border-box;*/
+    background-color: rgba(26, 25, 25, 0.8);
+    position:relative;
+}
+#dog-friendly-venues div p,h2,h3 {
+    color:aliceblue
+}
