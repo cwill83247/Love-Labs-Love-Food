@@ -4,13 +4,72 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+.navbar-nav {
+    clear:both;
+    float:right;
+    position:relative;
+    border:4px solid rgba(13, 14, 13, 0.8);  /**added border to see why its not positioning correctly **/
+}
+
 
 .navbar-brand h1 {
 font-family:'Lobster', cursive, Times, serif;
+font-size:3.5rem;
+padding:5%;
 }
 
-#hero-image-holder {
-    border-radius:5px;
+.navbar-nav li {
+    font-family:'Lobster', cursive, Times, serif;
+    font-size:1.5rem;
+   }
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: rgba(44, 143, 5, 0.8)!important;
+}
+
+#hero-image-holder {  /**from code institute love running project **/
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {    /**from code institute love running project **/
+    background: url("/assets/images/labradorcropped.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+    max-height:100%; 
+    max-width:100%;
+    background-size: contain;
+
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: rgba(44, 143, 5, 0.8);
+    border-color: rgba(44, 143, 5, 0.8);
+    text-decoration: none;
+}
+.btn-primary a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn-primary:hover{
+    color: #fff;
+    background-color: rgba(13, 14, 13, 0.8);
+    border-color: rgba(13, 14, 13, 0.8);
+}
+
+.btn-outline-secondary a {
+    color: rgba(13, 14, 13, 0.8);
+    text-decoration: none;
+}
+.btn-outline-secondary:hover  {
+    color: rgba(251, 253, 251, 0.8);
+    background-color: rgba(13, 14, 13, 0.8);
+    border-color: rgba(13, 14, 13, 0.8);
+
 }
 
 #dog-friendly-venues {
