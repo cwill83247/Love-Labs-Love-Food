@@ -16,15 +16,13 @@ padding:5%;
 .navbar-nav li {
     font-family:'Lobster', cursive, Times, serif;
     font-size:2rem;
-   }
+}
    
-   .nav-link{
-    color:rgb(255, 255, 255) !important;   /**important needed to enforce color change over bootstrap **/
-   
+.nav-link{
+    color:rgb(255, 255, 255) !important;   /**important needed to enforce color change over bootstrap **/   
 }  
-   .nav-link:hover {
-    text-decoration:underline;
-    
+.nav-link:hover {
+    text-decoration:underline;    
 }
  
 .nav-link:active {
@@ -54,7 +52,6 @@ padding:5%;
     max-height:100%; 
     max-width:100%;
     background-size: contain;
-
 }
 
 .btn-primary{
@@ -100,14 +97,9 @@ padding:5%;
     background-size: cover;
     background-repeat: no-repeat;
     padding-left:5%;
-    
+  
 }
-/**#overlay {
-    background-color: rgba(26, 25, 25, 0.8);    
-    width:auto;
-    
-}**/
-#dog-friendly-venues div {     /***this needs work to make it responsive ***/
+#dog-friendly-venues div {    /** rem used to ensure responsive ***/
     width: 30%;
     height:100%;
     margin-top:2rem; 
@@ -115,13 +107,11 @@ padding:5%;
     margin-bottom:1rem;
     overflow: hidden;
     float: left;
-    /*padding: 30px 0 0 10px;*/
     padding:2%;
     text-align: center;
     border: 0.2rem solid rgba(248, 247, 247, 0.1);
     border-top-left-radius: 2%;
     border-top-right-radius: 2%;
-    /*box-sizing: border-box;*/
     background-color: rgba(26, 25, 25, 0.8);
     position:relative;
 }
@@ -129,7 +119,6 @@ padding:5%;
     color:aliceblue
 }
  
-
  /**RESPONSIVE CHANGES - Tablet and Mobile *****/
 
 /* For medium screens sizes less than 950px but bigger than 800px otherwise media query below wil kick in  */
@@ -148,7 +137,6 @@ padding:5%;
         border: 0.2rem solid rgba(248, 247, 247, 0.1);
         border-top-left-radius: 2%;
         border-top-right-radius: 2%;
-        /*box-sizing: border-box;*/
         background-color: rgba(26, 25, 25, 0.8);
         position:relative;
     }
