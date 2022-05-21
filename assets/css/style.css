@@ -46,7 +46,7 @@ padding:5%;
 }
 
 #circle-cover-bg {    /**from code institute love running project **/
-    background: url("../assets/images/labradorcropped.jpg") no-repeat center center;
+    background: url("/assets/images/labradorcropped.jpg") no-repeat center center;
     height: 100%;
     border-radius: 50%;
     max-height:100%; 
