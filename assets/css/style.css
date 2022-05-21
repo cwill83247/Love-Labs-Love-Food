@@ -118,6 +118,19 @@ padding:5%;
 #dog-friendly-venues div p,h2,h3 {
     color:aliceblue
 }
+
+/* Gallery Photos for Gallery Page used CSS for Love Running project - code institute. */
+
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#photo img{
+    width: 100%;
+}
  
  /**RESPONSIVE CHANGES - Tablet and Mobile *****/
 
