@@ -11,7 +11,7 @@
     <!--FontAwesome link -->
     <script src="https://kit.fontawesome.com/44bcfdb8db.js" crossorigin="anonymous"></script>
     <!--Custom CSS link  style.css-->
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Love Labs,  Love Food ? then you are in the right place !</title>
 </head>
 <body>
@@ -32,7 +32,8 @@
     </symbol>
   </svg>
   <!--end of bootstrap svg files-->
-    <header>
+  <div class="container"> <!--container used so doesn't stretch and distort across wide screens as per mentor advice-->
+  <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
           <div class="container-fluid">
             <a class="navbar-brand" href="index.html"><h1><i class="fa-solid fa-paw"></i> Love Labs <br> <i class="fa-solid fa-face-grin-hearts"></i> Love Food</h1></a>
@@ -56,16 +57,15 @@
              </div>
           </div>
         </nav>
-      </header>    
-    <!--start of hero image-->  
+      </header>  
+      <!--start of hero image-->  
       <section id="hero-image">  
         <div class="container col-xxl-8 px-4 py-5">
           <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div class="col-10 col-sm-8 col-lg-6">
-              <!--fixed height and width for image needs to be sorted -->
               <div id="hero-image-holder">
                 <div id="circle-cover-bg"></div>
-               <!-- <img src="/assets/images/labradorandfood.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="350" height="350" loading="lazy"> -->
+               
               </div> 
             </div>
             <div class="col-lg-6">
@@ -88,7 +88,7 @@
         <h2>Oxwich Bay Hotel</h2>
         <h3>Located near to some of the most picturesque beaches</h3>
         <p>At the Oxwich Bay Hotel, we understand that dogs are part of the family, and so we pride ourselves on not simply “accommodating” them, but providing a warm welcome and making them feel right at home!</p>
-        <p>more information: https://oxwichbayhotel.co.uk/</p>
+        <p><a href="https://oxwichbayhotel.co.uk/" a target="_blank">Visit Website</a></p>
         <h3>Rating: <i class="fa-solid fa-paw"></i> <i class="fa-solid fa-paw"></i> <i class="fa-solid fa-paw"></i> <i class="fa-solid fa-paw"></i> </h3>
       </div>
       <div>
@@ -96,7 +96,7 @@
         <h3>Gastro dining,with fine wines and local ales</h3>
         <p>Located in the heart of Port Eynon, Gower. The Ship Inn offers a newly refurbished pub with a rustic seafaring décor. We serve food throughout the day whilst promising excellent service.
           </p>
-          <p>https://oxwichbayhotel.co.uk/</p>
+          <p><a href="https://shipinngower.co.uk/" a target="_blank">Visit Website</a></p>
         <h3>Rating: <i class="fa-solid fa-paw"></i> <i class="fa-solid fa-paw"></i> <i class="fa-solid fa-paw"></i> <i class="fa-solid fa-paw"></i> <i class="fa-solid fa-paw"></i></h3>
       </div>
       <div>
@@ -108,7 +108,7 @@
       </div>      
     </section>
   <!-- end of venues-->
-  <div class="container">
+  
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
       <div class="col-md-4 d-flex align-items-center">
         <class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
