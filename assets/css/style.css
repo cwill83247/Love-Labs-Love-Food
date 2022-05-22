@@ -131,6 +131,23 @@ padding:5%;
 #photo img{
     width: 100%;
 }
+
+/**Contact page specific **/
+#form_holder {
+    /**float:right;**/
+    width:60%;
+    margin:1rem;
+    padding:2rem;
+    
+}
+
+#form_background {
+    background: url("../images/chad-montano-eeqbbemH9-c-unsplash.jpg") no-repeat center center;
+    height: 100%;
+    
+}
+
+
  
  /**RESPONSIVE CHANGES - Tablet and Mobile *****/
 
