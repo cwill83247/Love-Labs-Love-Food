@@ -119,11 +119,11 @@ padding:5%;
     color:aliceblue
 }
 
-/* Gallery Photos for Gallery Page used CSS for Love Running project - code institute. */
+/* Gallery Photos for Gallery Page used CSS from Love Running project - code institute. made a few adjustments so in keeping with design */
 
 #photo {
     clear: both;
-    line-height: 0;
+    /**line-height: 0;**/
     column-count: 4;
     column-gap: 0px;
     position:relative;
@@ -134,33 +134,64 @@ padding:5%;
 }
 #gallery-overlay{
     width:60%;
-    /*height:10%;   **/
+    height:auto;
     position:absolute;
-    top:2rem;
+    top:2rem; 
     left:4rem;
     padding:2%;
     background-color:rgba(13, 14, 13, 0.8);
     color:rgb(244, 248, 248);
     border-radius:0.4rem;
-    overflow:none; 
+    overflow:hidden;
+}
+
+#gallery-overlay li {
+    list-style: none;
+    
+}
+#gallery-overlay li a{
+    color:#fff;
+    text-decoration:none;
+    list-style: none;
+}
+#gallery-overlay li a:hover{
+    color:#fff;
+    text-decoration:underline;
+    list-style: none;
 }
 
 /**Contact page specific **/
+#form_background {
+    background-image: url("../images/labradorcropped.jpg");
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    padding-left:5%;
+}
+
+#form_message {
+    float:left;
+    width:30%;
+    margin:1rem;
+    padding:2rem;
+    background-color:rgba(13, 14, 13, 1);
+    border-radius:0.4rem;
+}
+#form_message {
+    color:#fff;
+}
+
 #form_holder {
-    /**float:right;**/
+    float:right; 
     width:60%;
     margin:1rem;
     padding:2rem;
-    background-color:rgba(13, 14, 13, 0.8);
-}
-
-#form_background {
-    background: url("../images/chad-montano-eeqbbemH9-c-unsplash.jpg") no-repeat center center;
-    height: 100%;
+    background-color:rgba(13, 14, 13, 1);
+    border: 2px;
+    border-radius:0.4rem;
+    color:#fff;
     
-}
-
-
  
  /**RESPONSIVE CHANGES - Tablet and Mobile *****/
 
