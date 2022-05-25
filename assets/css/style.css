@@ -123,7 +123,6 @@ padding:5%;
 
 #photo {
     clear: both;
-    /**line-height: 0;**/
     column-count: 4;
     column-gap: 0px;
     position:relative;
@@ -160,7 +159,7 @@ padding:5%;
     list-style: none;
 }
 
-/**Contact page specific **/
+/*** Contact page specific ***********************************************/
 #form_background {
     background-image: url("../images/labradorcropped.jpg");
     background-size: cover;
@@ -191,11 +190,11 @@ padding:5%;
     border: 2px;
     border-radius:0.4rem;
     color:#fff;
-    
+}
  
  /**RESPONSIVE CHANGES - Tablet and Mobile *****/
 
-/* For medium screens sizes less than 950px but bigger than 800px otherwise media query below wil kick in  */
+/*********** For medium screens sizes less than 950px but bigger than 800px otherwise media query below wil kick in  *********/
 @media screen and (max-width: 950px){
         
     #dog-friendly-venues div {     
@@ -223,8 +222,7 @@ padding:5%;
         width: 10rem;
         height: 10rem;
         border-radius: 50%;
-        /*margin: 0 auto; */
-        margin-top:0.2rem;
+        margin-top:1rem;
         float:right;
     }
 
@@ -232,11 +230,39 @@ padding:5%;
         margin-top:0.2rem;
         float:left;
     }
+    /**Gallery specific **/
+    #photo {
+        clear: both;
+        column-count:2;
+        column-gap: 0px;
+        position:relative;
+    }  
+    #gallery-overlay{
+        width:90%;
+        height:auto;
+        position:absolute;
+        top:1rem; 
+        left:1rem;
+        padding:2%;
+        background-color:rgba(13, 14, 13, 0.8);
+        color:rgb(244, 248, 248);
+        border-radius:0.4rem;
         
+    }  
+   /**Contact specific **/
+   #form_message {
+    width:90%;
+    
     }
 
+    #form_holder {
+    width:90%;
+    float:left;
+    } 
+    
+}
 
-/** For small screensizes less than 800px **/
+/******************** For small screensizes less than 800px **********************************/
 @media screen and (max-width: 800px){
     
 }
