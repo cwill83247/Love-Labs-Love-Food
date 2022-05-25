@@ -1,5 +1,3 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
 # Love Labs , Love Food - Milestone Project 1
 
 ## Purpose of the website.
@@ -11,6 +9,8 @@ The website was created, as I am a Labrador owner and often as a family we want 
 As a user I want to plan my weekend dog walk.
 As a user i want to go out for a meal, but no leave my dog at home.
 as a user i want to find somewhere to eat that has been reviewed by fellow dog lovers. 
+
+![Love Labs screen mockups](https://github.com/cwill83247/love-labs-love-food/blob/main/assets/images/lovelabs_mockup.PNG)
 
 ## Features
 
@@ -43,8 +43,16 @@ Dynamic images from social media channels that include the hastag #LLLF or #Love
 
 # Validation
 
-CSS Validator used - https://validator.w3.org/
+HTML Validator used - https://validator.w3.org/
 Lighthouse Viewer for Accessibility -
+Jigsaw W3C Validator CSS
+ 
+ # Testing ( must demonstrate testing and fixes)
+
+# Deployed Site
+
+https://cwill83247.github.io/love-labs-love-food/
+
 
 
 
