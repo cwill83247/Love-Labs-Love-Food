@@ -1,6 +1,54 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome cwill83247,
+# Love Labs , Love Food - Milestone Project 1
+
+## Purpose of the website.
+
+The website was created, as I am a Labrador owner and often as a family we want to make a day of it, either at the beach or in the mountains. Can often be tricky finding places that you can eat, and also take our dog.
+
+## User Stories
+
+As a user I want to plan my weekend dog walk.
+As a user i want to go out for a meal, but no leave my dog at home.
+as a user i want to find somewhere to eat that has been reviewed by fellow dog lovers. 
+
+## Features
+
+### Header
+The header and navigation is simple, clean and consistent throughout the site. Helping the user easily navigate the site.
+
+### Footer
+The footer is consisten thtroughout the site, and contains link to the main social media channels
+
+### Home Page
+The home page has been designed to clean, and contain information abotu the site that will allow a user to quickly understand the purpose of the site.
+
+On the home page shows a snapshot of this months featured places to eat.
+
+### Gallery
+The gallery page is to showcase owners, food and there Labradors.
+
+### Contact Page
+The contact page is for users ot prpvide general comments, or for owners of food establishements to contact us to be added to our list of venues.
+
+## Future Features
+
+### Venues Page
+Addition of a searchable venue page, including interactive map to users can narrow down by post code, area or attraction.
+
+### Gallery
+Dynamic images from social media channels that include the hastag #LLLF or #Love Labs Love Food.
+
+# Typography 
+
+
+
+
+
+
+
+
+
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
