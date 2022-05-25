@@ -126,10 +126,23 @@ padding:5%;
     line-height: 0;
     column-count: 4;
     column-gap: 0px;
+    position:relative;
 }
 
 #photo img{
     width: 100%;
+}
+#gallery-overlay{
+    width:60%;
+    /*height:10%;   **/
+    position:absolute;
+    top:2rem;
+    left:4rem;
+    padding:2%;
+    background-color:rgba(13, 14, 13, 0.8);
+    color:rgb(244, 248, 248);
+    border-radius:0.4rem;
+    overflow:none; 
 }
 
 /**Contact page specific **/
@@ -138,7 +151,7 @@ padding:5%;
     width:60%;
     margin:1rem;
     padding:2rem;
-    
+    background-color:rgba(13, 14, 13, 0.8);
 }
 
 #form_background {
