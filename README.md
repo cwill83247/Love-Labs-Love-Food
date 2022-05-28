@@ -24,18 +24,18 @@ https://miro.com/app/board/uXjVO3quqfI=/?share_link_id=544111054445
 The header and navigation is simple, clean and consistent throughout the site. Helping the user easily navigate the site.
 
 ### Footer
-The footer is consisten thtroughout the site, and contains link to the main social media channels
+The footer is consistent throughout the site, and contains link to the main social media channels
 
 ### Home Page
-The home page has been designed to clean, and contain information abotu the site that will allow a user to quickly understand the purpose of the site.
+The home page has been designed to clean, and contain information about the site that will allow a user to quickly understand the purpose of the site.
 
-On the home page shows a snapshot of this months featured places to eat.
+The home page shows a snapshot of this months featured places to eat.
 
 ### Gallery
 The gallery page is to showcase owners, food and there Labradors.
 
 ### Contact Page
-The contact page is for users ot prpvide general comments, or for owners of food establishements to contact us to be added to our list of venues.
+The contact page is for users to provide general comments, or for owners of food establishements to contact us to be added to our list of venues.
 
 # Future Features/improvements
 
@@ -52,25 +52,25 @@ for the header and navigation bar combined with Icons from https://fontawesome.c
  # Testing and Validation
  
  Testing was carried out using Microsoft Edge and Google Chrome
- Google chrome developer tools was used to test repsonsiveness in different screen sizes.
+ Google chrome developer tools was used to test responsiveness in different screen sizes.
  
  Index Page
  Links were tested to ensure worked as expected
  external Links were tested to ensure open in a new page
- Colour and Design was tested to ensure text was readable and deisgn didnt detract form content.
+ Colour and Design was tested to ensure text was readable and deisgn didnt detract from content.
  Responsiveness was tested using Google chrome developer tools
 
  Gallery Page
  Links were tested to ensure work as expected
  Overlay was checked to ensure images behind didnt interfer with text.
  external Links were tested to ensure open in a new page
- Colour and Design was tested to ensure text was readable and design didnt detract form content.
+ Colour and Design was tested to ensure text was readable and design didnt detract from content.
  Responsiveness was tested using Google chrome developer tools.
 
  Contact Page
  Links were tested to ensure work as expected
  external Links were tested to ensure open in a new page
- Colour and Design was tested to ensure text was readable and deisgn didnt detract form content.
+ Colour and Design was tested to ensure text was readable and deisgn didnt detract from content.
  Responsiveness was tested using Google chrome developer tools.
  Form fields were tested to ensure required fields worked as expected.
 
@@ -88,42 +88,42 @@ This document validates as CSS level 3 + SVG !
 ## Bugs and Fixes
 When using Fixed header/navigation - text is lying underneath
 removed -- <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-replaced with -- <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+- replaced with -- <nav class="navbar navbar-expand-md navbar-dark bg-dark">
 
 Navigation - within the header navigation would sit to the right of my page
-Fix: Added Flex in CSS to postion.
+- Fix: Added Flex in CSS to postion.
 
 Layout on Widescreen monitors - Site stretched across all screen sizes which coudl result in distorted site
-Fix: Applied a container Div to wrap content.
+- Fix: Applied a container Div to wrap content.
 
-Mobile device and Hero Image - hero image was overlaying header when on amobile screen size
-Fix: used media query and addign additonal padding to prevent the overlay
+Mobile device and Hero Image - hero image was overlaying header when on a mobile screen size
+- Fix: used media query and adding additional padding to prevent the overlay.
 
 W3C Validation
 Index.html page - The element a must not appear as a descendant of the button element.
-Failed code:<button type="button" class="btn btn-primary btn-lg px-4 me-md-2"><a href="#dog-friendly-venues">Lets eat</a></button>
-Fixed code: <a href="#dog-friendly-venues" class="btn btn-primary btn-lg px-4 me-md-2">Lets eat</a>
+- Failed code:<button type="button" class="btn btn-primary btn-lg px-4 me-md-2"><a href="#dog-friendly-venues">Lets eat</a></button>
+- Fixed code: <a href="#dog-friendly-venues" class="btn btn-primary btn-lg px-4 me-md-2">Lets eat</a>
 
 Attribute a not allowed on element a at this point.
-Failed code: <a href="https://www.facebook.com/TheWatermillOgmore/" a target="_blank">
-Fixed code: <a href="https://www.facebook.com/TheWatermillOgmore/" target="_blank">
+- Failed code: <a href="https://www.facebook.com/TheWatermillOgmore/" a target="_blank">
+- Fixed code: <a href="https://www.facebook.com/TheWatermillOgmore/" target="_blank">
 
 Quote " in attribute name. Probable cause: Matching quote missing somewhere earlier.
-Failed code:<class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-Fixed code: removed as unecessary
+- Failed code:<class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+- Fixed code: removed as unecessary
 
 # Technology used
 
-HTML - to build the strucutre of the site
-Bootstrap 5 - CSS and layout
-CSS - to style content
-Javascript - to create the collapisble menu when on smaller screen sizes.
-Gitpod - was the IDe used to code the site.
-GitHub - was the repository used for source control, and publishign the live site.
-Google Fonts - used for the Logo font
-FontAwesome - used for icons
-PhotosShop CS - used to adjust theimage sizes
-Unsplash.com - used for images.
+- HTML - to build the strucutre of the site
+- Bootstrap 5 - CSS and layout
+- CSS - to style content
+- Javascript - to create the collapisble menu when on smaller screen sizes.
+- Gitpod - was the IDe used to code the site.
+- GitHub - was the repository used for source control, and publishign the live site.
+- Google Fonts - used for the Logo font
+- FontAwesome - used for icons
+- PhotosShop CS - used to adjust theimage sizes
+- Unsplash.com - used for images.
 
 # Deployment
 
