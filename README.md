@@ -6,6 +6,8 @@ The website was created, as I am a Labrador owner and often as a family we want 
 
 - Link to Live site https://cwill83247.github.io/love-labs-love-food/
 
+![Love Labs screen mockups](https://github.com/cwill83247/love-labs-love-food/blob/main/assets/images/lovelabs_mockup.PNG)
+
 ## User stories
 
 - As a user I want to plan my weekend dog walk.
@@ -15,8 +17,6 @@ The website was created, as I am a Labrador owner and often as a family we want 
 ## Wireframes
 Miro was used to create the wireframes for desktop and mobile tablet views
 https://miro.com/app/board/uXjVO3quqfI=/?share_link_id=544111054445
-
-![Love Labs screen mockups](https://github.com/cwill83247/love-labs-love-food/blob/main/assets/images/lovelabs_mockup.PNG)
 
 # Features
 
