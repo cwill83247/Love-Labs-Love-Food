@@ -51,16 +51,19 @@ for the header and navigation bar combined with Icons from https://fontawesome.c
 
  # Testing and Validation
  
- Testing was carried out using Microsoft Edge and Google Chrome
+ Testing was carried out using Microsoft Edge and Google Chrome.
+
  Google chrome developer tools was used to test responsiveness in different screen sizes.
  
  Index Page
+
  Links were tested to ensure worked as expected
  external Links were tested to ensure open in a new page
  Colour and Design was tested to ensure text was readable and deisgn didnt detract from content.
  Responsiveness was tested using Google chrome developer tools
 
  Gallery Page
+
  Links were tested to ensure work as expected
  Overlay was checked to ensure images behind didnt interfer with text.
  external Links were tested to ensure open in a new page
@@ -68,6 +71,7 @@ for the header and navigation bar combined with Icons from https://fontawesome.c
  Responsiveness was tested using Google chrome developer tools.
 
  Contact Page
+ 
  Links were tested to ensure work as expected
  external Links were tested to ensure open in a new page
  Colour and Design was tested to ensure text was readable and deisgn didnt detract from content.
