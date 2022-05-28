@@ -87,8 +87,8 @@ This document validates as CSS level 3 + SVG !
 
 ## Bugs and Fixes
 When using Fixed header/navigation - text is lying underneath
-removed -- <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-- replaced with -- <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+removed -- nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark"
+- replaced with nav class="navbar navbar-expand-md navbar-dark bg-dark"
 
 Navigation - within the header navigation would sit to the right of my page
 - Fix: Added Flex in CSS to postion.
@@ -101,15 +101,15 @@ Mobile device and Hero Image - hero image was overlaying header when on a mobile
 
 W3C Validation
 Index.html page - The element a must not appear as a descendant of the button element.
-- Failed code:<button type="button" class="btn btn-primary btn-lg px-4 me-md-2"><a href="#dog-friendly-venues">Lets eat</a></button>
-- Fixed code: <a href="#dog-friendly-venues" class="btn btn-primary btn-lg px-4 me-md-2">Lets eat</a>
+- Failed code:button type="button" class="btn btn-primary btn-lg px-4 me-md-2"><a href="#dog-friendly-venues">Lets eat</a
+- Fixed code: a href="#dog-friendly-venues" class="btn btn-primary btn-lg px-4 me-md-2">Lets eat
 
 Attribute a not allowed on element a at this point.
-- Failed code: <a href="https://www.facebook.com/TheWatermillOgmore/" a target="_blank">
-- Fixed code: <a href="https://www.facebook.com/TheWatermillOgmore/" target="_blank">
+- Failed code: a href="https://www.facebook.com/TheWatermillOgmore/" a target="_blank"
+- Fixed code: a href="https://www.facebook.com/TheWatermillOgmore/" target="_blank"
 
 Quote " in attribute name. Probable cause: Matching quote missing somewhere earlier.
-- Failed code:<class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+- Failed code:class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
 - Fixed code: removed as unecessary
 
 # Technology used
